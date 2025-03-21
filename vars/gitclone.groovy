@@ -1,4 +1,4 @@
-def call(string url, string branch)
+def call(String url, String branch)
 {
 sh "whoami"
 git url: "$url", branch: "$branch"
